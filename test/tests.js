@@ -4,7 +4,7 @@ var server = require('../lib/server.js');
 var expect = require('chai').expect;
 var request = require('request');
 
-describe('response', function() {
+describe('server response', function() {
   before(function () {
     server.listen(8000);
   });
